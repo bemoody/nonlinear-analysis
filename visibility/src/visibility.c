@@ -135,7 +135,7 @@ long input()
 		npts++;
 	}
 	if (npts < 1){
-		printf(stderr,"Error, no data read!");
+		fprintf(stderr,"Error, no data read!");
 		exit(-1);
 	}
 	return (npts);
